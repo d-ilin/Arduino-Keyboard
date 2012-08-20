@@ -1,0 +1,36 @@
+Arduino Keyboard
+
+Developed by: Dan Ilin
+
+A musical keyboard interface used to control the Arduino's tone() function.
+The keys are mapped as follows:
+
+Key - Function
+  z - Octave Down
+  x - Octave Up
+  a - C (current octave)
+  w - C#
+  s - D
+  e - D#
+  d - E
+  f - F
+  t - F#
+  g - G
+  y - G#
+  h - A
+  u - A#
+  j - B
+  k - C (next octave)
+
+To use the interface:
+
+1) Connect your Arduino device to your computer via USB
+
+2) Load the attached Arduino source code onto your Arduino device
+(/Source/ArduinoKeyboard.ino)
+
+3) Open the Arduino Keyboard application
+(found in the Binaries folder, under the appropriate directory for your system)
+
+Note: The interface will not work if the Arduino device isn't attached via a USB cable.
+The interface communicates with the device using its serial port.
